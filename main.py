@@ -20,10 +20,10 @@ def basla():
         enter = input("Kelime Giriniz : ")
         if enter == item:
             true = true+1
-            print(Fore.GREEN +"Doğru! Kalan Süre : ", sec)
+            print(Fore.GREEN +"Doğru! Geçen Süre : ", sec)
         else:
             false = false+1
-            print(Fore.RED +"Yanlış! Kalan Süre : ", sec)
+            print(Fore.RED +"Yanlış! Geçen Süre : ", sec)
         
         if sec == 60:
             break
